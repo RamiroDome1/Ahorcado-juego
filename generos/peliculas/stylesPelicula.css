@@ -4,8 +4,8 @@
   background-color: rgb(0, 0, 0);
   background-image: url(assets/pexels-tima-miroshnichenko-7991582.jpg);
   background-repeat: no-repeat;
-  background-size: 160%;
-  background-position: 50% 35%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .header {

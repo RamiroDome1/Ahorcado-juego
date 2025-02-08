@@ -158,6 +158,10 @@ function verificarLetra(letra, id) {
         mostrarCadenaIncognita();
       }
     }
+    else{
+      let boton =document.getElementById(id);
+      boton.disabled =true;
+    }
     if (cantApariciones > 0) {
       //cambia botones a verde
       elemento.style.background = "#30be30";
@@ -166,8 +170,10 @@ function verificarLetra(letra, id) {
       //cambia los botones a rojo
       elemento.style.background = "red";
       elemento.style.color = "black";
-    }
+    } 
+    
   }
+ 
   //si el el usuario erra la letra
   if (elemento.style.background == "red") {
     intentos--;

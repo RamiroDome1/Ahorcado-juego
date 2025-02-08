@@ -284,6 +284,10 @@ function verificarLetra(letra, id) {
         mostrarCadenaIncognita();
       }
     }
+    else{
+      let boton =document.getElementById(id);
+      boton.disabled =true;
+    }
     if (cantApariciones > 0) {
       //cambia botones a verde
       elemento.style.background = "#30be30";
