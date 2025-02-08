@@ -57,11 +57,11 @@ let intentos = 5;
 
 //funciones
 
-//eligue pelicula al azar de la lista y ademas agrega los caracteres a la lista cadenaIncognita
+//eligue un pais al azar de la lista y ademas agrega los caracteres a la lista cadenaIncognita
 function elegirPais() {
   //genera el numero aleatorio
   let pais = Math.floor(Math.random() * listaPaises.length);
-  //muestra la pelicula
+  //muestra el pais
   console.log(listaPaises[pais]);
   //agrega los caracteres a la lista de incognitos para mostrarla en pantalla
   for (let i = 0; i < listaPaises[pais].length; i++) {

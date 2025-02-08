@@ -239,11 +239,11 @@ let intentos = 5;
 
 //funciones
 
-//eligue pelicula al azar de la lista y ademas agrega los caracteres a la lista cadenaIncognita
+//eligue un animal al azar de la lista y ademas agrega los caracteres a la lista cadenaIncognita
 function elegirAnimal() {
   //genera el numero aleatorio
   let animal = Math.floor(Math.random() * listaAnimal.length);
-  //muestra la pelicula
+  //muestra el animal
   console.log(listaAnimal[animal]);
   //agrega los caracteres a la lista de incognitos para mostrarla en pantalla
   for (let i = 0; i < listaAnimal[animal].length; i++) {
