@@ -208,8 +208,10 @@ function verificarVictoria() {
     ).textContent = `Ganaste, Sobraron: ${intentos} intentos`;
     let elemento = document.getElementById("titulo");
     let elemento2 = document.getElementById("cadenaInconnita");
+    let elemento3 = document.getElementById("intentos");
     elemento.style.color = "#30be30";
     elemento2.style.color = "#30be30";
+    elemento3.style.color = "#30be30";
     let botones = document.querySelectorAll("button");
     botones.forEach((boton) => {
       boton.disabled = true;

@@ -26,12 +26,12 @@ function cambiaColor(id) {
 function verificarBotonesApretados() {
   if (botonesApretados.botonPaises) {
     window.location.href =
-      "http://127.0.0.1:5500/generos/paises/indexPaises.html";
+      "generos/paises/indexPaises.html";
   } else if (botonesApretados.botonAnimales) {
     window.location.href =
-      "http://127.0.0.1:5500/generos/animales/indexAnimales.html";
+      "generos/animales/indexAnimales.html";
   } else if (botonesApretados.botonPeliculas) {
     window.location.href =
-      "http://127.0.0.1:5500/generos/peliculas/indexPelicula.html";
+      "generos/peliculas/indexPelicula.html";
   }
 }
