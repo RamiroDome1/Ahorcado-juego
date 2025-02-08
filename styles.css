@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.body {
+  background: linear-gradient(
+    #5d79c0 0%,
+    #5d79c0 33.33%,
+    #203e8b 66.67%,
+    #000000 100%
+  );
+  height: 89vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: none;
+  font-size: 90px;
+  margin-top: 5.3%;
+}
+
+.header-h1 {
+  font-family: "Montserrat", "sans-serif";
+  color: #00ffff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 2%;
+  gap: 10px;
+}
+
+.main-h2 {
+  font-family: "Montserrat", "sans-serif";
+  color: #00ffff;
+  font-size: 30px;
+}
+.main-temas {
+  font-family: "Montserrat", "sans-serif";
+}
+.main-temas-button {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 200px;
+  margin: 10px;
+  color: #00ffff;
+  font-size: 30px;
+  letter-spacing: 4px;
+  background-color: #002349;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0, 2s;
+  border: none;
+}
+
+.main-temas-button:hover {
+  background: #daf7a6;
+  box-shadow: 0 0 20px #daf7a6, 0 0 80px #daf7a6, 0 0 160px #daf7a6;
+  color: black;
+}

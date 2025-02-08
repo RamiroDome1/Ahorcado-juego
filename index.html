@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="jss.js" defer></script>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1 class="header-h1" id="titulo">AHORCADO</h1>
+    </header>
+
+    <main class="main">
+      <h2 class="main-h2" id="intentos">Eliga el tema</h2>
+      <div class="main-temas">
+        <button
+          onclick="cambiaColor('botonPaises')"
+          class="main-temas-button"
+          id="botonPaises"
+        >
+          Paises
+        </button>
+        <button
+          onclick="cambiaColor('botonAnimales')"
+          class="main-temas-button"
+          id="botonAnimales"
+        >
+          Animales
+        </button>
+        <button
+          onclick="cambiaColor('botonPeliculas')"
+          class="main-temas-button"
+          id="botonPeliculas"
+        >
+          Peliculas
+        </button>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

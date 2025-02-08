@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.body {
+  background-color: black;
+  background-image: url(assets/fondoAnimal.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+}
+
+.header-botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-boton1 {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  border: 0px;
+  height: 60px;
+  width: 200px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  transition: 0, 2s;
+}
+
+.header-boton2 {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  border: 0px;
+  height: 60px;
+  width: 300px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  transition: 0, 2s;
+}
+
+.header-boton1:hover {
+  background: #ffcc00;
+  opacity: 60%;
+  box-shadow: 0 0 40px #ffcc00, 0 0 160px #ffcc00, 0 0 200px #ffcc00;
+  color: black;
+  border-radius: 16px;
+}
+
+.header-boton2:hover {
+  background: #ffcc00;
+  opacity: 60%;
+  box-shadow: 0 0 40px #ffcc00, 0 0 160px #ffcc00, 0 0 200px #ffcc00;
+  color: black;
+  border-radius: 16px;
+}
+
+.header-h1 {
+  font-family: "Indie Flower", serif;
+  color: #faf5e9;
+  padding-bottom: 0%;
+  font-size: 80px;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  letter-spacing: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.header-h2 {
+  font-family: "Indie Flower", serif;
+  color: #faf5e9;
+  font-size: 30px;
+  margin-top: 0%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 5px;
+}
+
+.header-intentos {
+  font-family: "Indie Flower", serif;
+  font-size: 50px;
+  margin: 0%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #faf5e9;
+}
+
+.main {
+  margin-top: 0px;
+  margin-bottom: 0%;
+  padding: 0px 30px 0px 2%;
+  gap: 10px;
+}
+
+.main-palabraIncognita {
+  font-family: "Montserrat", "sans-serif";
+  letter-spacing: 10px;
+  font-size: 100px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #faf5e9;
+}
+
+.boton-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-button {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 100px;
+  margin: 10px;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 4px;
+  background-color: #ffcc00;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0, 2s;
+  border: 0px;
+}
+
+.main-button:hover {
+  background: #009b4d;
+  box-shadow: 0 0 20px #009b4d, 0 0 80px #009b4d, 0 0 160px #009b4d;
+  color: black;
+}
